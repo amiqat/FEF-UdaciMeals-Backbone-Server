@@ -8,7 +8,7 @@ serves the app files and provides a REST interface for reading and storing data.
 The [binaries](./binaries) directory contains builds for Windows, Mac OS X
 ("darwin"), and Linux. Run the appropriate `server` program to start the server,
 supplying the `--www=` flag to point to your front-end code (e.g. on Mac OS X use
-`./server_darwin_amd64 --www=../../FEF-UdaciMeals-Backbone`)
+`./server_darwin_amd64 --www=../../FEF-UdaciMeals-Backbone`, on windows use start server_windows_amd64 --www=../../FEF-UdaciMeals-Backbone  )
 
 Use the `--log` flag to see all of the incoming and outgoing traffic
 from the server.
